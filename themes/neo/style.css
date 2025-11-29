@@ -24,6 +24,7 @@ scrollbar {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 15px;
 }
 
 .left-column {
@@ -33,7 +34,6 @@ scrollbar {
     rgba(8, 8, 10, 0.20),
     rgba(8, 8, 10, 0.40)
   );
-  padding: 20px;
 }
 
 /* Search bar */
@@ -41,6 +41,7 @@ scrollbar {
   background: rgba(18, 18, 22, 0.80);
   border-radius: 999px;
   padding: 10px 16px;
+  margin: 15px;
   color: @theme_fg_color;
   box-shadow:
     0 12px 30px rgba(0, 0, 0, 0.65),
@@ -73,6 +74,10 @@ scrollbar {
   letter-spacing: 1px;
   text-transform: uppercase;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.mode-buttons {
+  margin: 15px;
 }
 
 .mode-button:hover {
