@@ -115,7 +115,12 @@ This separation lets you:
 The script that ties schemes and themes together is:
 
 ```bash
-scripts/build-theme-with-color-scheme.sh
+~/.config/walker/scripts/build-theme-with-color-scheme.sh <COLOR_SCHEME> <THEME>
+```
+Example:
+
+```bash
+~/.config/walker/scripts/build-theme-with-color-scheme.sh tokyo-night neo
 ```
 
 Typical responsibilities:
@@ -123,16 +128,6 @@ Typical responsibilities:
 - Read a scheme from `colors/`
 - Apply it to a base theme (e.g. `themes/neo/`)
 - Generate a final theme (e.g. `themes/current/`)
-
-A hypothetical usage example (adjust to your script’s real interface):
-
-```bash
-cd ~/.config/walker
-./scripts/build-theme-with-color-scheme.sh \
-  colors/gruvbox.toml \
-  themes/neo \
-  themes/current
-```
 
 After generating the theme, make sure `config.toml` points to it:
 
@@ -147,7 +142,7 @@ theme = "current"
 1. **Clone** this repo into your walker config directory:
 
 ```bash
-git clone https://github.com/<your-user>/<your-walker-dotfiles>.git ~/.config/walker
+git clone https://github.com/CabezaCono/walker-themes.git ~/.config/walker
 ```
 
 Or clone elsewhere and symlink:
