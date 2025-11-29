@@ -53,35 +53,6 @@ A simple overview of the themes I’ve created so far.
 
 </details>
 
-### Preview file structure for current and future themes
-
-To keep previews consistent for the current theme and any future ones:
-
-- Store all screenshots under the `previews/` directory.
-- Use the theme name as the base filename.
-
-Recommended pattern:
-
-```text
-previews/
-├── neo.png          # main preview for "neo"
-├── neo-thumb.png    # optional thumbnail
-├── tokyonight.png   # future theme example
-└── tokyonight-thumb.png
-```
-
-And reference them in the README like:
-
-```markdown
-![<theme> theme preview](previews/<theme>.png)
-```
-
-For example, if later you add a `tokyonight` theme:
-
-```markdown
-![tokyonight theme preview](previews/tokyonight.png)
-```
-
 ---
 
 ## Theming & Color Schemes
