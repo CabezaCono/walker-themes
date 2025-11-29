@@ -93,7 +93,7 @@ scrollbar {
 
 /* ================= Right column - results list ================= */
 
-.right-column {
+.content-container {
   background: rgba(15, 15, 20, 0.86);
   border-radius: 22px;
   padding: 18px 18px 16px 18px;
@@ -154,4 +154,29 @@ child:selected .item-box {
   padding: 2px 4px;
   border-radius: 4px;
   border: 1px solid @accent_bg_color2;
+}
+
+/* ================= Preview ================= */
+
+/* Contenedor principal de la preview (GtkBox con clase .preview-box) */
+.preview-box {
+  color: @theme_fg_color;
+}
+
+/* Área donde se dibuja el contenido de la preview */
+.preview {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  color: @theme_fg_color;
+}
+
+/* Iconos grandes dentro de la preview */
+.preview .large-icons {
+  -gtk-icon-size: 64px;
+}
+
+/* Ejemplo de estilo específico para cierto contenido de preview
+   (equivalente a lo que hace default con archlinuxpkgs). */
+.preview-content.archlinuxpkgs {
+  font-family: monospace;
 }
