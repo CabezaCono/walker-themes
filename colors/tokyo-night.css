@@ -1,0 +1,12 @@
+/* 
+  Color definitions based on the "Tokyo Night" vscode theme: 
+  https://github.com/tokyo-night/tokyo-night-vscode-theme/blob/master/themes/tokyo-night-color-theme.json 
+*/
+@define-color accent_bg_color   #3d59a1;  /* button, main Tokyo Night accent */
+@define-color accent_bg_color2  #6183bb;  /* secondary accent / hover */
+@define-color theme_fg_color    #a9b1d6;  /* primary text color */
+@define-color subtle_fg_color   #787c99;  /* subtle / disabled text color */
+@define-color error_bg_color    #bb616b;  /* error background (Tokyo Night error tone) */
+@define-color error_fg_color    #101014;  /* text on top of the error background */
+
+/* ============================================================================== */

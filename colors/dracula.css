@@ -1,0 +1,12 @@
+/* 
+  Color definitions based on the "Dracula" theme:
+  https://draculatheme.com/
+*/
+@define-color accent_bg_color   #bd93f9;  /* button, main accent */
+@define-color accent_bg_color2  #ff79c6;  /* secondary accent / hover */
+@define-color theme_fg_color    #f8f8f2;  /* primary text color */
+@define-color subtle_fg_color   #6272a4;  /* subtle / disabled text color */
+@define-color error_bg_color    #ff5555;  /* error background tone */
+@define-color error_fg_color    #282a36;  /* text on top of error background */
+
+/* ============================================================================== */

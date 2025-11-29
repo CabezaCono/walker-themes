@@ -1,0 +1,12 @@
+/* 
+  Color definitions based on the "Catppuccin Mocha" palette:
+  https://github.com/catppuccin/catppuccin
+*/
+@define-color accent_bg_color   #89b4fa;  /* button, main accent */
+@define-color accent_bg_color2  #b4befe;  /* secondary accent / hover */
+@define-color theme_fg_color    #cdd6f4;  /* primary text color */
+@define-color subtle_fg_color   #bac2de;  /* subtle / disabled text color */
+@define-color error_bg_color    #f38ba8;  /* error background tone */
+@define-color error_fg_color    #1e1e2e;  /* text on top of error background */
+
+/* ============================================================================== */
